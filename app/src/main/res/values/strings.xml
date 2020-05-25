@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PollForGood</string>
+    <string name="title_activity_create_poll">CreatePoll</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_createpoll">Createpoll</string>
+    <string name="logout">Logout</string>
+    <string-array name="numbers">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+</resources>

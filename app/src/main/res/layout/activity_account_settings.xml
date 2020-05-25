@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountSettings">
+
+    <Button
+        android:id="@+id/close_setting"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:text="Close"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/update_setting"
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/buttons"
+        android:text="Update"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/update_setting"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="42dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Name"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:textSize="19sp"
+        />
+
+    <EditText
+        android:id="@+id/roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="6dp"
+        android:hint="Roll Number(In Capitals)"
+        android:inputType="text"
+        android:textSize="19sp"
+        />
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/roll"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Phone Number(10-digit)"
+        android:inputType="number"
+        android:textSize="19sp"
+        android:layout_marginTop="6dp"
+        />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_number"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="6dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="19sp"
+        />
+
+
+</RelativeLayout>

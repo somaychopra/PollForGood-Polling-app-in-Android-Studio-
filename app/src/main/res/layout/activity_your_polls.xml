@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YourPolls"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <Button
+        android:id="@+id/nouse_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/buttons"
+        android:text="Your Polls"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/addpoll"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="249dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/pluss"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_yours"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:layout_below="@+id/nouse_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="61dp"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

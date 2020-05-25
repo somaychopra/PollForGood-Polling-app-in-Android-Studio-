@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "872263882511",
+    "firebase_url": "https://pollforgood-91414.firebaseio.com",
+    "project_id": "pollforgood-91414",
+    "storage_bucket": "pollforgood-91414.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872263882511:android:93b8e7091debb21280107a",
+        "android_client_info": {
+          "package_name": "software.project.pollforgood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872263882511-s5au8oeoe5gncg6fkpsuh3mfeu7l5eqt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "software.project.pollforgood",
+            "certificate_hash": "555502c02dfd8d6f227bb95cce4802569d06438d"
+          }
+        },
+        {
+          "client_id": "872263882511-8c3ij0ivp6grhmaaang16ge92f1ri9ci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWB6Y3bxve2La39ffti6EZR5s5qPCEEmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872263882511-8c3ij0ivp6grhmaaang16ge92f1ri9ci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

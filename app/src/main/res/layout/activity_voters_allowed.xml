@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VotersAllowed">
+
+    <Button
+        android:id="@+id/nouse_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/buttons"
+        android:text="Select Targeted Voters"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="660dp"
+        android:layout_marginLeft="249dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:text="Select the year :"
+        android:textSize="19sp" />
+
+    <com.rey.material.widget.CheckBox
+        android:id="@+id/firstyear_chkb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Material.Drawable.CheckBox"
+        app:cbd_strokeColor="@color/colorPrimary"
+        android:text="1st Year"
+        android:gravity="center_vertical"
+        android:layout_marginTop="18dp"
+        android:layout_below="@id/text1"
+        android:textSize="18sp"
+        android:layout_marginLeft="17dp" />
+
+    <com.rey.material.widget.CheckBox
+        android:id="@+id/secondyear_chkb"
+        style="@style/Material.Drawable.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        app:cbd_strokeColor="@color/colorPrimary"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="18dp"
+        android:gravity="center_vertical"
+        android:text="2nd Year"
+        android:textSize="18sp" />
+
+    <com.rey.material.widget.CheckBox
+        android:id="@+id/fourthyear_chkb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Material.Drawable.CheckBox"
+        app:cbd_strokeColor="@color/colorPrimary"
+        android:text="4th Year"
+        android:gravity="center_vertical"
+        android:layout_marginTop="18dp"
+        android:layout_below="@id/firstyear_chkb"
+        android:textSize="18sp"
+        android:layout_marginLeft="225dp" />
+
+    <com.rey.material.widget.CheckBox
+        android:id="@+id/thirdyear_chkb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Material.Drawable.CheckBox"
+        app:cbd_strokeColor="@color/colorPrimary"
+        android:text="3rd Year"
+        android:gravity="center_vertical"
+        android:layout_marginTop="18dp"
+        android:layout_below="@id/firstyear_chkb"
+        android:textSize="18sp"
+        android:layout_marginLeft="17dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thirdyear_chkb"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:text="Select the department :"
+        android:textSize="19sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="298dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/cs_chkb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cbd_strokeColor="@color/colorPrimary"
+                style="@style/Material.Drawable.CheckBox"
+                android:text="Computer Science and Engineering"
+                android:gravity="center_vertical"
+                android:layout_below="@id/text2"
+                android:textSize="18sp"
+                android:layout_marginLeft="17dp"
+                />
+
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/ece_chkb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Material.Drawable.CheckBox"
+                android:text="Electronics and Communication Engineering"
+                android:gravity="center_vertical"
+                app:cbd_strokeColor="@color/colorPrimary"
+                android:layout_marginTop="18dp"
+                android:layout_below="@id/cs_chkb"
+                android:textSize="18sp"
+                android:layout_marginLeft="17dp"
+                />
+
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/electrical_chkb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Material.Drawable.CheckBox"
+                android:text="Electrical Engineering"
+                android:gravity="center_vertical"
+                android:layout_marginTop="18dp"
+                app:cbd_strokeColor="@color/colorPrimary"
+                android:layout_below="@id/ece_chkb"
+                android:textSize="18sp"
+                android:layout_marginLeft="17dp"
+                />
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/mechanical_chkb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Material.Drawable.CheckBox"
+                android:text="Mechanical Engineering"
+                app:cbd_strokeColor="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:layout_marginTop="18dp"
+                android:layout_below="@id/electrical_chkb"
+                android:textSize="18sp"
+                android:layout_marginLeft="17dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

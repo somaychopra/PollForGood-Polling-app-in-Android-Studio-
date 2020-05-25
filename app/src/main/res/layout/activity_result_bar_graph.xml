@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultBarGraph">
+
+    <TextView
+        android:id="@+id/nouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Voting Stats for the Poll : "
+        android:textStyle="bold"
+        android:textSize="22sp"
+        />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barchart"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_below="@+id/nouse"
+        android:layout_marginTop="50dp"/>
+
+</RelativeLayout>

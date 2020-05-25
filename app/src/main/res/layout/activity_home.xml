@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/logout_buttn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/nouse_btn"
+        android:layout_width="400dp"
+        android:layout_height="345dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/yourpoll_btn"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Your Polls"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/vote_btn"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/yourpoll_btn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Vote"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/viewresults_btn"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/vote_btn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="View Results"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/account_btn"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/viewresults_btn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Account Settings"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</RelativeLayout>

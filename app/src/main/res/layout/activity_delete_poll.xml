@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeletePoll">
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/optionbox7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/buttons"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/pollquestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Question : "
+        android:textStyle="bold"
+        android:textSize="22sp"
+        />
+    <CheckBox
+        android:id="@+id/optionbox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pollquestion"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:text="Option 1"
+        android:textSize="18sp"
+        />
+    <CheckBox
+        android:id="@+id/optionbox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionbox1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:text="Option 2"
+        android:textSize="18sp"
+        />
+    <CheckBox
+        android:id="@+id/optionbox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionbox2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:text="Option 3"
+        android:textSize="18sp"
+        />
+    <CheckBox
+        android:id="@+id/optionbox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionbox3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:text="Option 4"
+        android:textSize="18sp"
+        />
+    <CheckBox
+        android:id="@+id/optionbox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionbox4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:text="Option 5"
+        android:textSize="18sp"
+        />
+    <CheckBox
+        android:id="@+id/optionbox6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionbox5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:text="Option 6"
+        android:textSize="18sp"
+        />
+    <CheckBox
+        android:id="@+id/optionbox7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionbox6"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:text="Option 7"
+        android:textSize="18sp"
+        />
+
+</RelativeLayout>
